@@ -1,0 +1,328 @@
+{
+    "generation_info": {
+        "total_instances": 30,
+        "instances_per_group": 3
+    },
+    "groups": {
+        "small": {
+            "name": "Small",
+            "parameters": {
+                "name": "Small",
+                "I_range": [
+                    8,
+                    12
+                ],
+                "p_range": [
+                    3,
+                    7
+                ]
+            },
+            "instances": [
+                "SMALL_01",
+                "SMALL_02",
+                "SMALL_03",
+                "SMALL_04",
+                "SMALL_05",
+                "SMALL_06",
+                "SMALL_07",
+                "SMALL_08",
+                "SMALL_09",
+                "SMALL_10"
+            ]
+        },
+        "medium": {
+            "name": "Medium",
+            "parameters": {
+                "name": "Medium",
+                "I_range": [
+                    15,
+                    20
+                ],
+                "p_range": [
+                    8,
+                    13
+                ]
+            },
+            "instances": [
+                "MEDIUM_01",
+                "MEDIUM_02",
+                "MEDIUM_03",
+                "MEDIUM_04",
+                "MEDIUM_05",
+                "MEDIUM_06",
+                "MEDIUM_07",
+                "MEDIUM_08",
+                "MEDIUM_09",
+                "MEDIUM_10"
+            ]
+        },
+        "large": {
+            "name": "Large",
+            "parameters": {
+                "name": "Large",
+                "I_range": [
+                    22,
+                    30
+                ],
+                "p_range": [
+                    13,
+                    20
+                ]
+            },
+            "instances": [
+                "LARGE_01",
+                "LARGE_02",
+                "LARGE_03",
+                "LARGE_04",
+                "LARGE_05",
+                "LARGE_06",
+                "LARGE_07",
+                "LARGE_08",
+                "LARGE_09",
+                "LARGE_10"
+            ]
+        }
+    },
+    "instances_summary": [
+        {
+            "instance_id": "SMALL_01",
+            "group": "Small",
+            "I": 12,
+            "avg_distance": 0.42,
+            "min_distance": 0.030787441889209087,
+            "max_distance": 0.8461920928653163
+        },
+        {
+            "instance_id": "SMALL_02",
+            "group": "Small",
+            "I": 9,
+            "avg_distance": 0.46,
+            "min_distance": 0.11666724079417483,
+            "max_distance": 0.8061382265584782
+        },
+        {
+            "instance_id": "SMALL_03",
+            "group": "Small",
+            "I": 12,
+            "avg_distance": 0.52,
+            "min_distance": 0.03223812321883743,
+            "max_distance": 1.029045527776043
+        },
+        {
+            "instance_id": "SMALL_04",
+            "group": "Small",
+            "I": 9,
+            "avg_distance": 0.54,
+            "min_distance": 0.13663468669843196,
+            "max_distance": 0.9135184998849262
+        },
+        {
+            "instance_id": "SMALL_05",
+            "group": "Small",
+            "I": 10,
+            "avg_distance": 0.54,
+            "min_distance": 0.049210217697596745,
+            "max_distance": 1.083027607282448
+        },
+        {
+            "instance_id": "SMALL_06",
+            "group": "Small",
+            "I": 11,
+            "avg_distance": 0.5,
+            "min_distance": 0.034505847297869485,
+            "max_distance": 0.940097375777744
+        },
+        {
+            "instance_id": "SMALL_07",
+            "group": "Small",
+            "I": 12,
+            "avg_distance": 0.51,
+            "min_distance": 0.08480803459169457,
+            "max_distance": 0.9702090525843833
+        },
+        {
+            "instance_id": "SMALL_08",
+            "group": "Small",
+            "I": 12,
+            "avg_distance": 0.55,
+            "min_distance": 0.08546527012910143,
+            "max_distance": 1.0052707758755641
+        },
+        {
+            "instance_id": "SMALL_09",
+            "group": "Small",
+            "I": 9,
+            "avg_distance": 0.4,
+            "min_distance": 0.030282021337190233,
+            "max_distance": 0.7541649260861945
+        },
+        {
+            "instance_id": "SMALL_10",
+            "group": "Small",
+            "I": 11,
+            "avg_distance": 0.55,
+            "min_distance": 0.12134082208797438,
+            "max_distance": 1.015360918020563
+        },
+        {
+            "instance_id": "MEDIUM_01",
+            "group": "Medium",
+            "I": 15,
+            "avg_distance": 0.61,
+            "min_distance": 0.050944117283527934,
+            "max_distance": 1.2523111655902737
+        },
+        {
+            "instance_id": "MEDIUM_02",
+            "group": "Medium",
+            "I": 19,
+            "avg_distance": 0.48,
+            "min_distance": 0.005124887037536223,
+            "max_distance": 0.9960487363629951
+        },
+        {
+            "instance_id": "MEDIUM_03",
+            "group": "Medium",
+            "I": 17,
+            "avg_distance": 0.6,
+            "min_distance": 0.05238078107232674,
+            "max_distance": 1.1588088117242505
+        },
+        {
+            "instance_id": "MEDIUM_04",
+            "group": "Medium",
+            "I": 15,
+            "avg_distance": 0.53,
+            "min_distance": 0.04041272567583948,
+            "max_distance": 1.18832094724025
+        },
+        {
+            "instance_id": "MEDIUM_05",
+            "group": "Medium",
+            "I": 17,
+            "avg_distance": 0.53,
+            "min_distance": 0.06858983722839355,
+            "max_distance": 1.2687688252220317
+        },
+        {
+            "instance_id": "MEDIUM_06",
+            "group": "Medium",
+            "I": 17,
+            "avg_distance": 0.51,
+            "min_distance": 0.036714476726188265,
+            "max_distance": 1.1751811861653934
+        },
+        {
+            "instance_id": "MEDIUM_07",
+            "group": "Medium",
+            "I": 20,
+            "avg_distance": 0.47,
+            "min_distance": 0.012700473855698993,
+            "max_distance": 0.9856360627724449
+        },
+        {
+            "instance_id": "MEDIUM_08",
+            "group": "Medium",
+            "I": 20,
+            "avg_distance": 0.63,
+            "min_distance": 0.0426793451439455,
+            "max_distance": 1.2654562317480675
+        },
+        {
+            "instance_id": "MEDIUM_09",
+            "group": "Medium",
+            "I": 20,
+            "avg_distance": 0.53,
+            "min_distance": 0.029940637330755505,
+            "max_distance": 1.1559742103816075
+        },
+        {
+            "instance_id": "MEDIUM_10",
+            "group": "Medium",
+            "I": 16,
+            "avg_distance": 0.5,
+            "min_distance": 0.035564175596668836,
+            "max_distance": 1.1075104184423001
+        },
+        {
+            "instance_id": "LARGE_01",
+            "group": "Large",
+            "I": 29,
+            "avg_distance": 0.51,
+            "min_distance": 0.028941526426687944,
+            "max_distance": 1.1537033109912258
+        },
+        {
+            "instance_id": "LARGE_02",
+            "group": "Large",
+            "I": 22,
+            "avg_distance": 0.52,
+            "min_distance": 0.025028559492440337,
+            "max_distance": 1.1139072825381182
+        },
+        {
+            "instance_id": "LARGE_03",
+            "group": "Large",
+            "I": 23,
+            "avg_distance": 0.49,
+            "min_distance": 0.02937503959881203,
+            "max_distance": 1.1011940816716992
+        },
+        {
+            "instance_id": "LARGE_04",
+            "group": "Large",
+            "I": 26,
+            "avg_distance": 0.56,
+            "min_distance": 0.014681848864894178,
+            "max_distance": 1.2162829663285841
+        },
+        {
+            "instance_id": "LARGE_05",
+            "group": "Large",
+            "I": 23,
+            "avg_distance": 0.53,
+            "min_distance": 0.04473774203971376,
+            "max_distance": 1.2297698343765986
+        },
+        {
+            "instance_id": "LARGE_06",
+            "group": "Large",
+            "I": 22,
+            "avg_distance": 0.52,
+            "min_distance": 0.01820374636582712,
+            "max_distance": 1.1176221115157612
+        },
+        {
+            "instance_id": "LARGE_07",
+            "group": "Large",
+            "I": 29,
+            "avg_distance": 0.47,
+            "min_distance": 0.017624302709854232,
+            "max_distance": 1.2290650854561065
+        },
+        {
+            "instance_id": "LARGE_08",
+            "group": "Large",
+            "I": 22,
+            "avg_distance": 0.55,
+            "min_distance": 0.014370392118770232,
+            "max_distance": 1.1838152267979347
+        },
+        {
+            "instance_id": "LARGE_09",
+            "group": "Large",
+            "I": 22,
+            "avg_distance": 0.5,
+            "min_distance": 0.058686666053500945,
+            "max_distance": 1.2156422637401543
+        },
+        {
+            "instance_id": "LARGE_10",
+            "group": "Large",
+            "I": 27,
+            "avg_distance": 0.44,
+            "min_distance": 0.011565892572119728,
+            "max_distance": 1.0839218347535762
+        }
+    ]
+}

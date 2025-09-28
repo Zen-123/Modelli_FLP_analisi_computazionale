@@ -1,0 +1,352 @@
+{
+    "generation_info": {
+        "total_instances": 30,
+        "instances_per_group": 3
+    },
+    "groups": {
+        "small": {
+            "name": "Small",
+            "parameters": {
+                "name": "Small",
+                "I_range": [
+                    10,
+                    15
+                ],
+                "J_range": [
+                    20,
+                    100
+                ],
+                "C_range": [
+                    5,
+                    10
+                ],
+                "f_range": [
+                    5,
+                    10
+                ]
+            },
+            "instances": [
+                "SMALL_01",
+                "SMALL_02",
+                "SMALL_03",
+                "SMALL_04",
+                "SMALL_05",
+                "SMALL_06",
+                "SMALL_07",
+                "SMALL_08",
+                "SMALL_09",
+                "SMALL_10"
+            ]
+        },
+        "medium": {
+            "name": "Medium",
+            "parameters": {
+                "name": "Medium",
+                "I_range": [
+                    15,
+                    20
+                ],
+                "J_range": [
+                    100,
+                    200
+                ],
+                "C_range": [
+                    8,
+                    13
+                ],
+                "f_range": [
+                    50,
+                    100
+                ]
+            },
+            "instances": [
+                "MEDIUM_01",
+                "MEDIUM_02",
+                "MEDIUM_03",
+                "MEDIUM_04",
+                "MEDIUM_05",
+                "MEDIUM_06",
+                "MEDIUM_07",
+                "MEDIUM_08",
+                "MEDIUM_09",
+                "MEDIUM_10"
+            ]
+        },
+        "large": {
+            "name": "Large",
+            "parameters": {
+                "name": "Large",
+                "I_range": [
+                    25,
+                    35
+                ],
+                "J_range": [
+                    250,
+                    350
+                ],
+                "C_range": [
+                    12,
+                    16
+                ],
+                "f_range": [
+                    200,
+                    400
+                ]
+            },
+            "instances": [
+                "LARGE_01",
+                "LARGE_02",
+                "LARGE_03",
+                "LARGE_04",
+                "LARGE_05",
+                "LARGE_06",
+                "LARGE_07",
+                "LARGE_08",
+                "LARGE_09",
+                "LARGE_10"
+            ]
+        }
+    },
+    "instances_summary": [
+        {
+            "instance_id": "SMALL_01",
+            "group": "Small",
+            "I": 15,
+            "J": 60,
+            "avg_capacity": 7.93,
+            "avg_fixed_cost": 7.69
+        },
+        {
+            "instance_id": "SMALL_02",
+            "group": "Small",
+            "I": 14,
+            "J": 50,
+            "avg_capacity": 8.0,
+            "avg_fixed_cost": 7.25
+        },
+        {
+            "instance_id": "SMALL_03",
+            "group": "Small",
+            "I": 11,
+            "J": 50,
+            "avg_capacity": 7.09,
+            "avg_fixed_cost": 7.33
+        },
+        {
+            "instance_id": "SMALL_04",
+            "group": "Small",
+            "I": 14,
+            "J": 40,
+            "avg_capacity": 8.29,
+            "avg_fixed_cost": 7.54
+        },
+        {
+            "instance_id": "SMALL_05",
+            "group": "Small",
+            "I": 10,
+            "J": 40,
+            "avg_capacity": 9.5,
+            "avg_fixed_cost": 7.17
+        },
+        {
+            "instance_id": "SMALL_06",
+            "group": "Small",
+            "I": 11,
+            "J": 70,
+            "avg_capacity": 7.73,
+            "avg_fixed_cost": 7.74
+        },
+        {
+            "instance_id": "SMALL_07",
+            "group": "Small",
+            "I": 11,
+            "J": 70,
+            "avg_capacity": 7.73,
+            "avg_fixed_cost": 7.59
+        },
+        {
+            "instance_id": "SMALL_08",
+            "group": "Small",
+            "I": 13,
+            "J": 80,
+            "avg_capacity": 6.77,
+            "avg_fixed_cost": 8.06
+        },
+        {
+            "instance_id": "SMALL_09",
+            "group": "Small",
+            "I": 13,
+            "J": 20,
+            "avg_capacity": 6.92,
+            "avg_fixed_cost": 7.63
+        },
+        {
+            "instance_id": "SMALL_10",
+            "group": "Small",
+            "I": 15,
+            "J": 100,
+            "avg_capacity": 7.47,
+            "avg_fixed_cost": 7.84
+        },
+        {
+            "instance_id": "MEDIUM_01",
+            "group": "Medium",
+            "I": 17,
+            "J": 190,
+            "avg_capacity": 11.24,
+            "avg_fixed_cost": 78.12
+        },
+        {
+            "instance_id": "MEDIUM_02",
+            "group": "Medium",
+            "I": 17,
+            "J": 140,
+            "avg_capacity": 10.76,
+            "avg_fixed_cost": 68.35
+        },
+        {
+            "instance_id": "MEDIUM_03",
+            "group": "Medium",
+            "I": 18,
+            "J": 100,
+            "avg_capacity": 10.33,
+            "avg_fixed_cost": 72.16
+        },
+        {
+            "instance_id": "MEDIUM_04",
+            "group": "Medium",
+            "I": 16,
+            "J": 140,
+            "avg_capacity": 10.0,
+            "avg_fixed_cost": 76.37
+        },
+        {
+            "instance_id": "MEDIUM_05",
+            "group": "Medium",
+            "I": 19,
+            "J": 170,
+            "avg_capacity": 10.53,
+            "avg_fixed_cost": 74.05
+        },
+        {
+            "instance_id": "MEDIUM_06",
+            "group": "Medium",
+            "I": 19,
+            "J": 110,
+            "avg_capacity": 10.26,
+            "avg_fixed_cost": 70.0
+        },
+        {
+            "instance_id": "MEDIUM_07",
+            "group": "Medium",
+            "I": 16,
+            "J": 110,
+            "avg_capacity": 10.5,
+            "avg_fixed_cost": 72.15
+        },
+        {
+            "instance_id": "MEDIUM_08",
+            "group": "Medium",
+            "I": 16,
+            "J": 110,
+            "avg_capacity": 9.88,
+            "avg_fixed_cost": 69.52
+        },
+        {
+            "instance_id": "MEDIUM_09",
+            "group": "Medium",
+            "I": 17,
+            "J": 170,
+            "avg_capacity": 10.82,
+            "avg_fixed_cost": 73.31
+        },
+        {
+            "instance_id": "MEDIUM_10",
+            "group": "Medium",
+            "I": 15,
+            "J": 170,
+            "avg_capacity": 11.4,
+            "avg_fixed_cost": 71.71
+        },
+        {
+            "instance_id": "LARGE_01",
+            "group": "Large",
+            "I": 31,
+            "J": 250,
+            "avg_capacity": 14.19,
+            "avg_fixed_cost": 306.94
+        },
+        {
+            "instance_id": "LARGE_02",
+            "group": "Large",
+            "I": 29,
+            "J": 320,
+            "avg_capacity": 13.76,
+            "avg_fixed_cost": 294.15
+        },
+        {
+            "instance_id": "LARGE_03",
+            "group": "Large",
+            "I": 28,
+            "J": 310,
+            "avg_capacity": 13.93,
+            "avg_fixed_cost": 301.02
+        },
+        {
+            "instance_id": "LARGE_04",
+            "group": "Large",
+            "I": 34,
+            "J": 270,
+            "avg_capacity": 14.09,
+            "avg_fixed_cost": 312.3
+        },
+        {
+            "instance_id": "LARGE_05",
+            "group": "Large",
+            "I": 27,
+            "J": 260,
+            "avg_capacity": 14.22,
+            "avg_fixed_cost": 296.27
+        },
+        {
+            "instance_id": "LARGE_06",
+            "group": "Large",
+            "I": 28,
+            "J": 280,
+            "avg_capacity": 14.07,
+            "avg_fixed_cost": 314.34
+        },
+        {
+            "instance_id": "LARGE_07",
+            "group": "Large",
+            "I": 32,
+            "J": 290,
+            "avg_capacity": 14.31,
+            "avg_fixed_cost": 309.5
+        },
+        {
+            "instance_id": "LARGE_08",
+            "group": "Large",
+            "I": 27,
+            "J": 330,
+            "avg_capacity": 14.41,
+            "avg_fixed_cost": 287.67
+        },
+        {
+            "instance_id": "LARGE_09",
+            "group": "Large",
+            "I": 32,
+            "J": 300,
+            "avg_capacity": 14.22,
+            "avg_fixed_cost": 303.12
+        },
+        {
+            "instance_id": "LARGE_10",
+            "group": "Large",
+            "I": 26,
+            "J": 330,
+            "avg_capacity": 13.31,
+            "avg_fixed_cost": 304.01
+        }
+    ]
+}
