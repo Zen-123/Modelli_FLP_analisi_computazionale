@@ -1,6 +1,7 @@
 # Project Overview
 
 Questo progetto è stato sviluppato all’interno di un **ambiente virtuale (venv)** in cui sono state installate tutte le librerie necessarie per l’esecuzione dei programmi Python.
+Prima di eseguire i codici è neessario assicurarsi di avere attivo venv.
 
 ## Struttura del progetto
 
