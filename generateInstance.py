@@ -20,15 +20,15 @@ INSTANCE_GROUPS = {
     },
     'medium': {
         'name': 'Medium',
-        'I_range': [15, 20],
-        'J_range': [100, 200],
-        'C_range': [8, 13],
+        'I_range': [20, 40],
+        'J_range': [100, 300],
+        'C_range': [8, 12],
         'f_range': [50, 100]
     },
     'large': {
         'name': 'Large',
-        'I_range': [25, 35],
-        'J_range': [250, 350],
+        'I_range': [40, 60],
+        'J_range': [350, 450],
         'C_range': [12, 16],
         'f_range': [200, 400]
     }
@@ -43,13 +43,13 @@ INSTANCE_GROUPS_P_DISPERSION = {
     },
     'medium': {
         'name': 'Medium',
-        'I_range': [15, 20],
-        'p_range': [8, 13],
+        'I_range': [13, 18],
+        'p_range': [7, 12],
     },
     'large': {
         'name': 'Large',
-        'I_range': [22, 30],
-        'p_range': [13, 20],
+        'I_range': [18, 25],
+        'p_range': [10, 15],
     }
 }
 
@@ -650,7 +650,7 @@ def generateTablePdispersion(model, filename, resultPath, I,p,d,facilities,typeM
 
 
 if __name__ == "__main__":
-    # genera le istanze 
     
-    #allInstancesFLP = generateAllInstancesFLP(instanceRange=10)
+    # genera le istanze 
+    allInstancesFLP = generateAllInstancesFLP(instanceRange=10)
     allInstances = generateAllInstancesPdispertion(instanceRange=10)
